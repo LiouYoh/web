@@ -1,0 +1,98 @@
+html, body{
+	font-size: 10pt;
+	font-family: MS PGothic, verdana;
+	height: 95%;
+}
+input {
+	font-size: 9pt;
+	font-family: MS PGothic, verdana;
+	line-height: 15px;
+	height: 16px;
+	vertical-align: middle;
+	color: #00b2ee;
+	border: #00b2ee 1px solid;
+	background-color: #ffffff;
+}
+input.button {
+    line-height: 20px;
+    height: 20px;
+    text-align: center;
+    padding-top: 0px;
+}
+#guest {
+	width: 160px;
+}
+p.saydate {
+	margin-top: 3px;
+	margin-bottom: 0px;
+}
+blockquote.saycontent {
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 8px;
+	padding: 3px 5px 3px 5px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+	background: #c0ff3e;
+}
+div.chatui {
+	padding: 10px 10px 10px 10px;
+	border: #00b2ee 2pt solid;
+	width: 285px;
+	text-align: left;
+}
+table.titlebox {
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	width: 285px;
+}
+td.logout {
+	width: 55px;
+}
+td.colorbar {
+	width: 60px;
+	text-align: right;
+}
+div.msgbox {
+	height: 300px;
+	min-height: 300px;
+	width: 280px;
+	border: #00b2ee 1pt solid;
+	overflow-y: scroll;
+}
+textarea.online {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	width: 278px;
+	height: 40px;
+	color: #00b2ee;
+	border: #00b2ee 1pt solid;
+	resize: none;
+	cursor: none;
+}
+div.talkbar {
+	padding: 5px 0px 0px 0px;
+}
+span.username {
+	position: absolute;
+	z-index: -1;
+	height: 12px;
+	width: 130px;
+	overflow: hidden;
+}
+#talk {
+	width: 230px;
+}
+#send {
+	width: 44px;
+}
+#color {
+	border: #00b2ee 1px solid;
+}
+label {
+	color: #00b2ee;
+}
+a:link, a:visited{
+	color: #00b2ee;
+	text-decoration: none;
+}

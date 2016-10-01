@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html> 
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>ONLINE SPORT SYSTEM</title>
+
+</head>
+
+<body background="background.jpg">
+
+
+
+
+
+<h1 align="center">Welcome to the online system</h1>
+
+<br><br>
+<marquee bgcolor=red behavior=alternate scrollamount=20>update data anytime</marquee>
+<br><br>
+
+<!--
+<center>
+<img src="1.jpg" width="500" height="400">
+</center>
+-->
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+	
+
+<hr>
+
+
+<form action="finaltest.php" method="get">
+<center>
+<tr width="30%">
+Account: <input type="text" name="account"><br></tr>
+<tr width="30%">
+Password: <input type="text" name="password"><br></tr>
+<br>
+<input type="submit" value="帳號登入">
+<br><br>
+</center>
+</form>
+
+<form action="finaltest2.php" method="get">
+<center>
+<input type="submit" value="新帳號註冊">
+<br><br>
+</center>
+</form>
+
+
+<center><span id=localtime></span><center>
+<script type="text/javascript">
+function showLocale(objD)
+{
+var str,colorhead,colorfoot;
+var yy = objD.getYear();
+if(yy<1900) yy = yy+1900;
+var MM = objD.getMonth()+1;
+if(MM<10) MM = '0' + MM;
+var dd = objD.getDate();
+if(dd<10) dd = '0' + dd;
+var hh = objD.getHours();
+if(hh<10) hh = '0' + hh;
+var mm = objD.getMinutes();
+if(mm<10) mm = '0' + mm;
+var ss = objD.getSeconds();
+if(ss<10) ss = '0' + ss;
+var ww = objD.getDay();
+if  ( ww==0 )  colorhead="<font color=\"#FF0000\">";
+if  ( ww > 0 && ww < 6 )  colorhead="<font color=\"#373737\">";
+if  ( ww==6 )  colorhead="<font color=\"#008000\">";
+if  (ww==0)  ww="星期日";
+if  (ww==1)  ww="星期一";
+if  (ww==2)  ww="星期二";
+if  (ww==3)  ww="星期三";
+if  (ww==4)  ww="星期四";
+if  (ww==5)  ww="星期五";
+if  (ww==6)  ww="星期六";
+colorfoot="</font>"
+str = colorhead + yy + "-" + MM + "-" + dd + " " + hh + ":" + mm + ":" + ss + "  " + ww + colorfoot;
+return(str);
+}
+function tick()
+{
+var today;
+today = new Date();
+document.getElementById("localtime").innerHTML = showLocale(today);
+window.setTimeout("tick()", 1000);
+}
+tick();
+</script>
+
+
+
+
+</body>
+
+</html>
